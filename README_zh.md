@@ -15,6 +15,9 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-7a7a7a?style=flat-square)](LICENSE)
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=JianzeLi-114/FrameLite)
+[![GitHub Stars](https://img.shields.io/github/stars/JianzeLi-114/FrameLite?style=social&logo=github&label=Stars)](https://github.com/JianzeLi-114/FrameLite/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/JianzeLi-114/FrameLite?style=social&logo=github&label=Forks)](https://github.com/JianzeLi-114/FrameLite/forks)
+[![HF downloads/month](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fmon3tr%2FFrameLite&query=%24.downloads&label=HF+downloads%2Fmonth&color=FFD21E&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/mon3tr/FrameLite)
 
 [快速开始](#quick-start) · [English](README.md)
 
