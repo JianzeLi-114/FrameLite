@@ -1,0 +1,12 @@
+# Reference inference environment. Install the CUDA PyTorch wheels first (README).
+torch==2.6.0
+torchvision==0.21.0
+transformers==5.16.1
+tokenizers==0.23.1
+peft==0.20.0
+accelerate==1.14.0
+safetensors==0.8.0
+huggingface-hub==1.29.0
+Pillow==12.2.0
+numpy==2.2.6
+einops==0.8.2

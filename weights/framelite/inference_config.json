@@ -1,0 +1,40 @@
+{
+  "format": "framelite-inference/v1",
+  "base_model": "base",
+  "adapter_file": "framelite.safetensors",
+  "model": {
+    "dtype": "bfloat16",
+    "attn_implementation": "sdpa"
+  },
+  "lora": {
+    "rank": 64,
+    "alpha": 128,
+    "dropout": 0.05,
+    "target_suffixes": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "in_proj_qkv",
+      "in_proj_z",
+      "in_proj_b",
+      "in_proj_a",
+      "out_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "merger_storage_dtype": "float32",
+  "image_processing": {
+    "min_pixels": 65536,
+    "max_pixels": 589824
+  },
+  "prompt": "Select one aesthetically pleasing crop for this image. Return only the requested short structured output.",
+  "generation": {
+    "max_new_tokens": 32,
+    "do_sample": false,
+    "num_beams": 1,
+    "num_return_sequences": 1
+  }
+}

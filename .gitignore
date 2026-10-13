@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+outputs/
+*.egg-info/
+build/
+dist/
+
+# Model downloads are distributed separately.
+/weights/framelite/base/
+/weights/framelite/*.safetensors
+
+# Papers are linked from the README and GitHub Releases.
+/assets/FrameLite*.pdf

@@ -1,0 +1,17 @@
+FrameLite
+Inference code and task-specific language LoRA and vision merger weights.
+
+FrameLite uses Qwen/Qwen3.5-0.8B as its pretrained backbone. The backbone
+weights, tokenizer, processor, and model configuration are downloaded
+separately from Qwen and are not redistributed in this code repository.
+The upstream model is released by the Qwen team under the Apache License,
+Version 2.0.
+Upstream: https://huggingface.co/Qwen/Qwen3.5-0.8B
+Upstream license: https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/LICENSE
+
+FrameLite's trained language LoRA and vision merger parameters are distributed
+separately through https://huggingface.co/mon3tr/FrameLite. The language LoRA is not merged into the backbone.
+This repository provides the inference implementation.
+
+Runtime dependencies, including PyTorch, Transformers, PEFT, Pillow, and
+Safetensors, retain their respective licenses. They are installed separately.
