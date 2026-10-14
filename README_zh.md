@@ -9,7 +9,7 @@
 <sup>2</sup> 华为媒体技术与体验设计研究所<br>
 <sup>†</sup> 通讯作者
 
-[![Paper](https://img.shields.io/badge/Paper-526878?style=flat-square&logo=arxiv&logoColor=white)](#)
+[![Paper](https://img.shields.io/badge/Paper-526878?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.17639)
 [![Supplementary Material](https://img.shields.io/badge/Supplementary_Material-697d6c?style=flat-square)](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf)
 [![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Models-d7ab45?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/mon3tr/FrameLite)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-7a7a7a?style=flat-square)](LICENSE)
@@ -179,7 +179,7 @@ else:
 | Venus | 0.8380 | 0.7200 | 0.8638 | 0.0304 | 0.6836 | 0.0794 |
 | **FrameLite** | **0.9140** | **0.8340** | **0.8679** | **0.0297** | **0.7124** | **0.0704** |
 
-Acc 表示在指定 IoU 阈值下计算的 GAICv2 $\mathrm{Acc}_{1/5}$。Acc 和 IoU 越高越好，BDE 越低越好。完整对比与评测协议见[论文](#)，额外消融、用户研究和定性对比见[补充材料](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf)。
+Acc 表示在指定 IoU 阈值下计算的 GAICv2 $\mathrm{Acc}_{1/5}$。Acc 和 IoU 越高越好，BDE 越低越好。完整对比与评测协议见[论文](https://arxiv.org/abs/2610.17639)，额外消融、用户研究和定性对比见[补充材料](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf)。
 
 ## 引用
 
@@ -190,7 +190,10 @@ Acc 表示在指定 IoU 阈值下计算的 GAICv2 $\mathrm{Acc}_{1/5}$。Acc 和
   title={FrameLite: Decision-Oriented Aesthetic Cropping with a Compact Vision--Language Model},
   author={Li, Jianze and Liu, Kai and Zhang, Ziqing and Zhang, Weihang and Guo, Yong and Kong, Linghe and Zhang, Yulun},
   year={2026},
-  url={https://github.com/JianzeLi-114/FrameLite}
+  eprint={2610.17639},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2610.17639}
 }
 ```
 

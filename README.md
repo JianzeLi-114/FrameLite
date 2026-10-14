@@ -9,7 +9,7 @@
 <sup>2</sup> Institute of Media Technology and Experience Design, Huawei<br>
 <sup>†</sup> Corresponding author
 
-[![Paper](https://img.shields.io/badge/Paper-526878?style=flat-square&logo=arxiv&logoColor=white)](#)
+[![Paper](https://img.shields.io/badge/Paper-526878?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.17639)
 [![Supplementary Material](https://img.shields.io/badge/Supplementary_Material-697d6c?style=flat-square)](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf)
 [![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Models-d7ab45?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/mon3tr/FrameLite)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-7a7a7a?style=flat-square)](LICENSE)
@@ -175,7 +175,7 @@ Selected comparisons from the paper, evaluated with one predicted crop per image
 | Venus | 0.8380 | 0.7200 | 0.8638 | 0.0304 | 0.6836 | 0.0794 |
 | **FrameLite** | **0.9140** | **0.8340** | **0.8679** | **0.0297** | **0.7124** | **0.0704** |
 
-Acc denotes GAICv2 $\mathrm{Acc}_{1/5}$ at the indicated IoU threshold. Higher Acc and IoU and lower BDE are better. See the [paper](#) for the complete comparison and evaluation protocol, and the [supplementary material](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf) for additional ablations, the user study, and qualitative comparisons.
+Acc denotes GAICv2 $\mathrm{Acc}_{1/5}$ at the indicated IoU threshold. Higher Acc and IoU and lower BDE are better. See the [paper](https://arxiv.org/abs/2610.17639) for the complete comparison and evaluation protocol, and the [supplementary material](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf) for additional ablations, the user study, and qualitative comparisons.
 
 ## Citation
 
@@ -186,7 +186,10 @@ If you find FrameLite useful, please cite our work:
   title={FrameLite: Decision-Oriented Aesthetic Cropping with a Compact Vision--Language Model},
   author={Li, Jianze and Liu, Kai and Zhang, Ziqing and Zhang, Weihang and Guo, Yong and Kong, Linghe and Zhang, Yulun},
   year={2026},
-  url={https://github.com/JianzeLi-114/FrameLite}
+  eprint={2610.17639},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2610.17639}
 }
 ```
 
