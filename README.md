@@ -24,6 +24,14 @@
 
 </div>
 
+## 📰 News
+
+- **2026-10-14:** Our [interactive demo](https://huggingface.co/spaces/zlab-sjtu/FrameLite) is live!
+- **2026-10-14:** [Inference code](#quick-start) and [model weights](https://huggingface.co/zlab-sjtu/FrameLite) are now available.
+- **2026-10-13:** Our [paper](https://arxiv.org/abs/2610.17639) is available on arXiv.
+
+> **Try FrameLite online:** upload an image in our [interactive demo](https://huggingface.co/spaces/zlab-sjtu/FrameLite) to visualize and download the predicted crop.
+
 <table>
   <tr>
     <td align="center" width="33%"><img src="assets/examples/curved_architecture/input.jpg" height="180" alt="Input: curved architecture"></td>

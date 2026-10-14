@@ -24,6 +24,14 @@
 
 </div>
 
+## 📰 最新动态
+
+- **2026-10-14：** [在线交互演示](https://huggingface.co/spaces/zlab-sjtu/FrameLite)已上线！
+- **2026-10-14：** [推理代码](#quick-start)和[模型权重](https://huggingface.co/zlab-sjtu/FrameLite)现已开放。
+- **2026-10-13：** [论文](https://arxiv.org/abs/2610.17639)已发布于 arXiv。
+
+> **在线体验 FrameLite：** 在[交互演示](https://huggingface.co/spaces/zlab-sjtu/FrameLite)中上传图片，即可查看并下载预测的裁剪结果。
+
 <table>
   <tr>
     <td align="center" width="33%"><img src="assets/examples/curved_architecture/input.jpg" height="180" alt="输入图像：曲线建筑"></td>
