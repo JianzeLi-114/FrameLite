@@ -11,13 +11,14 @@
 
 [![Paper](https://img.shields.io/badge/Paper-526878?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.17639)
 [![Supplementary Material](https://img.shields.io/badge/Supplementary_Material-697d6c?style=flat-square)](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf)
-[![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Models-d7ab45?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/mon3tr/FrameLite)
+[![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Models-d7ab45?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/zlab-sjtu/FrameLite)
+[![Demo](https://img.shields.io/badge/%F0%9F%A4%97-Demo-5b8c85?style=flat-square)](https://huggingface.co/spaces/zlab-sjtu/FrameLite)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-7a7a7a?style=flat-square)](LICENSE)
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=JianzeLi-114/FrameLite)
 [![GitHub Stars](https://img.shields.io/github/stars/JianzeLi-114/FrameLite?style=social&logo=github&label=Stars)](https://github.com/JianzeLi-114/FrameLite/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/JianzeLi-114/FrameLite?style=social&logo=github&label=Forks)](https://github.com/JianzeLi-114/FrameLite/forks)
-[![HF downloads/month](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fmon3tr%2FFrameLite&query=%24.downloads&label=HF+downloads%2Fmonth&color=FFD21E&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/mon3tr/FrameLite)
+[![HF downloads/month](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fzlab-sjtu%2FFrameLite&query=%24.downloads&label=HF+downloads%2Fmonth&color=FFD21E&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/zlab-sjtu/FrameLite)
 
 [快速开始](#quick-start) · [English](README.md)
 
@@ -70,9 +71,9 @@ QOS 将更好的生成候选转化为学习目标，GRO 随后利用正、负质
 
 | 模型 | 骨干模型 | 检查点 | 下载 |
 |:---|:---|:---|:---|
-| FrameLite | Qwen3.5-0.8B | 完成 Stage I → QOS → GRO 训练后的最终模型 | [Hugging Face](https://huggingface.co/mon3tr/FrameLite) |
+| FrameLite | Qwen3.5-0.8B | 完成 Stage I → QOS → GRO 训练后的最终模型 | [Hugging Face](https://huggingface.co/zlab-sjtu/FrameLite) |
 
-FrameLite 任务权重约为 **224 MB**，包含训练后的语言 LoRA 和视觉融合模块。请从 [Hugging Face](https://huggingface.co/mon3tr/FrameLite) 下载任务权重，从 [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B) 下载基础模型。本地目录结构如下：
+FrameLite 任务权重约为 **224 MB**，包含训练后的语言 LoRA 和视觉融合模块。请从 [Hugging Face](https://huggingface.co/zlab-sjtu/FrameLite) 下载任务权重，从 [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B) 下载基础模型。本地目录结构如下：
 
 ```text
 weights/framelite/
@@ -112,7 +113,7 @@ python - <<'PY'
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    repo_id="mon3tr/FrameLite",
+    repo_id="zlab-sjtu/FrameLite",
     local_dir="weights/framelite",
     allow_patterns=[
         "framelite.safetensors", "inference_config.json", "LICENSE", "NOTICE",

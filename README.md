@@ -11,13 +11,14 @@
 
 [![Paper](https://img.shields.io/badge/Paper-526878?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.17639)
 [![Supplementary Material](https://img.shields.io/badge/Supplementary_Material-697d6c?style=flat-square)](https://github.com/JianzeLi-114/FrameLite/releases/download/v1.0/FrameLite_supplementary.pdf)
-[![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Models-d7ab45?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/mon3tr/FrameLite)
+[![Hugging Face Models](https://img.shields.io/badge/Hugging_Face-Models-d7ab45?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/zlab-sjtu/FrameLite)
+[![Demo](https://img.shields.io/badge/%F0%9F%A4%97-Demo-5b8c85?style=flat-square)](https://huggingface.co/spaces/zlab-sjtu/FrameLite)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-7a7a7a?style=flat-square)](LICENSE)
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=JianzeLi-114/FrameLite)
 [![GitHub Stars](https://img.shields.io/github/stars/JianzeLi-114/FrameLite?style=social&logo=github&label=Stars)](https://github.com/JianzeLi-114/FrameLite/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/JianzeLi-114/FrameLite?style=social&logo=github&label=Forks)](https://github.com/JianzeLi-114/FrameLite/forks)
-[![HF downloads/month](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fmon3tr%2FFrameLite&query=%24.downloads&label=HF+downloads%2Fmonth&color=FFD21E&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/mon3tr/FrameLite)
+[![HF downloads/month](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2Fzlab-sjtu%2FFrameLite&query=%24.downloads&label=HF+downloads%2Fmonth&color=FFD21E&logo=huggingface&logoColor=FFD21E)](https://huggingface.co/zlab-sjtu/FrameLite)
 
 [Quick Start](#quick-start) · [中文](README_zh.md)
 
@@ -68,9 +69,9 @@ QOS turns better generated candidates into learning targets. GRO then uses both 
 
 | Model | Backbone | Checkpoint | Download |
 |:---|:---|:---|:---|
-| FrameLite | Qwen3.5-0.8B | Final model after Stage I → QOS → GRO | [Hugging Face](https://huggingface.co/mon3tr/FrameLite) |
+| FrameLite | Qwen3.5-0.8B | Final model after Stage I → QOS → GRO | [Hugging Face](https://huggingface.co/zlab-sjtu/FrameLite) |
 
-The FrameLite task weights (**224 MB**) contain the trained language LoRA and vision merger. Download them from [Hugging Face](https://huggingface.co/mon3tr/FrameLite), and the backbone from [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B). The downloads use this local layout:
+The FrameLite task weights (**224 MB**) contain the trained language LoRA and vision merger. Download them from [Hugging Face](https://huggingface.co/zlab-sjtu/FrameLite), and the backbone from [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B). The downloads use this local layout:
 
 ```text
 weights/framelite/
@@ -108,7 +109,7 @@ python - <<'PY'
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    repo_id="mon3tr/FrameLite",
+    repo_id="zlab-sjtu/FrameLite",
     local_dir="weights/framelite",
     allow_patterns=[
         "framelite.safetensors", "inference_config.json", "LICENSE", "NOTICE",

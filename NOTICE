@@ -10,7 +10,7 @@ Upstream: https://huggingface.co/Qwen/Qwen3.5-0.8B
 Upstream license: https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/LICENSE
 
 FrameLite's trained language LoRA and vision merger parameters are distributed
-separately through https://huggingface.co/mon3tr/FrameLite. The language LoRA is not merged into the backbone.
+separately through https://huggingface.co/zlab-sjtu/FrameLite. The language LoRA is not merged into the backbone.
 This repository provides the inference implementation.
 
 Runtime dependencies, including PyTorch, Transformers, PEFT, Pillow, and

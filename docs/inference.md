@@ -6,7 +6,7 @@
 
 `FrameLite.from_pretrained` reads a local bundle containing the Qwen3.5-0.8B base model, tokenizer and processor, the FrameLite task weights, and `inference_config.json`. It does not automatically download a model from Hugging Face. No API key is required for local inference.
 
-Download the FrameLite task weights from [mon3tr/FrameLite](https://huggingface.co/mon3tr/FrameLite) and the backbone separately from [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B), following the two download commands in the README.
+Download the FrameLite task weights from [zlab-sjtu/FrameLite](https://huggingface.co/zlab-sjtu/FrameLite) and the backbone separately from [Qwen/Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B), following the two download commands in the README.
 
 The task weights contain the trained vision merger and unmerged language LoRA. They are not a complete Hugging Face model or a standard PEFT adapter that can be loaded independently. Keep the bundle structure described in the [README](../README.md#pretrained-model).
 
