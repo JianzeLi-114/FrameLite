@@ -182,14 +182,11 @@ Acc denotes GAICv2 $\mathrm{Acc}_{1/5}$ at the indicated IoU threshold. Higher A
 If you find FrameLite useful, please cite our work:
 
 ```bibtex
-@misc{li2026framelite,
+@article{li2026framelite,
   title={FrameLite: Decision-Oriented Aesthetic Cropping with a Compact Vision--Language Model},
   author={Li, Jianze and Liu, Kai and Zhang, Ziqing and Zhang, Weihang and Guo, Yong and Kong, Linghe and Zhang, Yulun},
-  year={2026},
-  eprint={2610.17639},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2610.17639}
+  journal={arXiv preprint arXiv:2610.17639},
+  year={2026}
 }
 ```
 
